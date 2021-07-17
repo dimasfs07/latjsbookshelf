@@ -35,10 +35,24 @@
                         <input id="inputBookIsComplete" type="checkbox">
                     </div>
                     <button id="submitBook" type="submit">
-                        Masukkan Buku ke Rak
+                        "Masukkan Buku ke Rak"
                         <span>Belum Selesai Dibaca</span>
                     </button>
                 </form>
+            </section>
+            <section class="search_section">
+                <h2>Cari Buku (Opsional)</h2>
+                <label for="searchBookTitle">Cari</label>
+                <input id="searchBookTitle" type="text">
+                <button id="searchSubmit" type="submit">cari</button>
+            </section>
+            <section class="bookshelf">
+                <h2>Belum Selesai Dibaca</h2>
+                <div id="incompleteBookshelfList" class="book_list"></div>
+            </section>
+            <section class="bookshelf">
+                <h2>Sudah Selesai Dibaca</h2>
+                <div id="completeBookshelfList" class="book_list"></div>
             </section>
         </main>
         <script src="assets/js/script.js" type="text/javascript"></script>
